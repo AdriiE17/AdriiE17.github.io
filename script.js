@@ -11,13 +11,12 @@ window.addEventListener("resize", e=>{
 })
 
 setInterval(()=>{
-    slider.style.transform = "translate("+(-width*counter)+"px)";
-    slider.style.transition = "transform 1s";
-    counter++;
-
-    if(counter === sliderIndividual.length + 1){
+    if(counter === sliderIndividual.length){
         slider.style.transform = "translate(0px)";
         counter=1;
     }
+    slider.style.transform = "translate("+(-width*counter)+"px)";
+    slider.style.transition = "transform 1s";
+    counter++;
 
 }, 5000);
