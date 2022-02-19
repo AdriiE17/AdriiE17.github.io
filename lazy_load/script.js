@@ -28,7 +28,7 @@ let loadNewPublications = entries => {
             text.setAttribute("class", "text");
 
             comment.style.textShadow = "2px 2px 4px rgb(" + Math.round(Math.random() * 255) + ", " + Math.round(Math.random() * 255) + ", " + Math.round(Math.random() * 255) + ")";
-            profile_photo.setAttribute("src", "img/" + i + ".jpg");
+            profile_photo.setAttribute("src", "https://adriie17.github.io/lazy_load/img/" + i + ".jpg");
             profile_user.textContent = list_names[i];
             profile_usertag.textContent = "@" + list_names[i].toLowerCase();
             text.innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur incidunt accusamus est vitae fugiat! Ut eum reiciendis ab molestias iste! Ad, ducimus. Veniam quia officiis eius totam tenetur eveniet quasi?<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur incidunt accusamus est vitae fugiat! Ut eum reiciendis ab molestias iste! Ad, ducimus. Veniam quia officiis eius totam tenetur eveniet quasi?<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur incidunt accusamus est vitae fugiat! Ut eum reiciendis ab molestias iste! Ad, ducimus. Veniam quia officiis eius totam tenetur eveniet quasi?<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur incidunt accusamus est vitae fugiat! Ut eum reiciendis ab molestias iste! Ad, ducimus. Veniam quia officiis eius totam tenetur eveniet quasi?"
