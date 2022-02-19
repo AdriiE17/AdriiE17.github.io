@@ -1,0 +1,138 @@
+body{
+    font-family: Minecraft, Consolas, sans-serif;
+    background-color: #293133;
+    color: #fff;
+    margin: 15px;
+}
+
+.comment{
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid #fff;
+    padding: 10px;
+    text-shadow: 2px 2px 4px #FF0000;
+}
+
+.profile{
+    display: inline-flex;
+    margin-bottom: 10px;
+    font-size: 18px;
+    flex-wrap: wrap;
+}
+
+.profile_user{
+    margin-left: 10px;
+}
+
+.profile_usertag{
+    margin-left: 10px;
+    opacity: 0.5;
+}
+
+.profile_photo{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 40px;
+}
+
+.body{
+    border-top: 1px solid #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.text{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    font-size: 16px;
+}
+
+footer{
+    width: 60%;
+    margin: 0 auto;
+    background-color: #9884fc;
+    padding: 10px;
+    border: 1px solid #fff;
+    font-size: 12px;
+}
+
+#loader_container{
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.lds-ellipsis {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+.lds-ellipsis div {
+    position: absolute;
+    top: 33px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #fff;
+    animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+.lds-ellipsis div:nth-child(1) {
+    left: 8px;
+    animation: lds-ellipsis1 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(2) {
+    left: 8px;
+    animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(3) {
+    left: 32px;
+    animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(4) {
+    left: 56px;
+    animation: lds-ellipsis3 0.6s infinite;
+}
+
+@keyframes lds-ellipsis1 {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes lds-ellipsis3 {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0);
+    }
+}
+@keyframes lds-ellipsis2 {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(24px, 0);
+    }
+}
+
+
+@media only screen and (max-width: 420px) {
+    .profile_usertag{
+        margin: 0;
+        margin-left: 60px;
+        opacity: 0.5;
+    }
+
+    .text{
+        text-align: left;
+    }
+
+}

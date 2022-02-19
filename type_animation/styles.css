@@ -1,0 +1,47 @@
+body{
+    background-color: #000;
+}
+
+
+.div{
+    position: absolute;
+    width: 0;
+    height: 0;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#span{
+    color: #149414;
+    margin-top: -50px;
+    margin-left: -6ch;
+    text-align: center;
+    display: block;
+    font-family: monospace;
+    font-size: 50px;
+    white-space: nowrap;
+    width: 0;
+    border-right: 1px solid #149414;
+    overflow: hidden;
+    animation: blink .5s infinite step-end alternate;
+}
+
+@keyframes typing{
+    from { width:0 }
+} 
+
+@keyframes delete{
+    from { 
+        width:12ch; 
+    }
+    to{
+        width:8ch;
+    }
+} 
+
+@keyframes blink {
+    50% { border-color: transparent;}
+}

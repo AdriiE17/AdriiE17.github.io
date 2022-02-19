@@ -1,0 +1,45 @@
+/* The progress container (grey background) */
+.progress_container {
+  width: 98.5%;
+  height: 8px;
+  background: #ccc;
+  position: fixed;
+  top: 0;
+  border: solid 1px black;
+}
+
+/* The progress bar (scroll indicator) */
+.progress_bar {
+  height: 8px;
+  background: #04AA6D;
+  width: 0%;
+}
+
+h1{
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+}
+
+p{
+  font-size: 28px;
+  text-align: justify;
+}
+
+p.lorem {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.porcentaje-container{
+  position: fixed;
+  top:9px;
+  width: 85px;
+  height: 85px;
+  background: #04AA6D;
+  display: flex;
+  justify-content: center;
+  border: solid 1px black;
+}

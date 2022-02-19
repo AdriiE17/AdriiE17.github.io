@@ -1,0 +1,42 @@
+html{
+    scrollbar-width: none;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p{
+    text-align: justify;
+    margin-top: -5px;
+}
+
+.container{
+    margin: auto;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00ffff;
+    border: solid #000 1px;
+    animation-name: animation;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animation {
+    from {
+        transform: scale(1);
+    }
+  
+    to {
+        transform: scale(5);
+    }
+}
