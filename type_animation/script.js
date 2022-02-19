@@ -3,7 +3,7 @@
 let executing = false;
 const span = document.getElementById("span");
 const sonido = document.createElement("audio");
-sonido.setAttribute("src","teclas.mp3");
+sonido.setAttribute("src","https://adriie17.github.io/type_animation/teclas.mp3");
 document.body.appendChild(sonido);
 
 window.addEventListener("click", ()=>{
