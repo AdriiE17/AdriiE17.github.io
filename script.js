@@ -16,7 +16,7 @@ setInterval(()=>{
     counter++;
     
     if(counter === sliderIndividual.length){
-        setTimeout(()={
+        setTimeout(()=>{
             slider.style.transform = "translate(0px)";
             slider.style.transition = "transform 0s";
             counter=1;
