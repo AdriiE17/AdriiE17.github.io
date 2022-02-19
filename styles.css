@@ -1,5 +1,6 @@
 body{
     background-color:#293133;
+    font-family: "Consolas";
 }
 
 .main-container{
@@ -38,4 +39,31 @@ body{
     height: 600px;
     object-fit: cover;
     object-position: center;
+}
+
+#mobile_warning { 
+	display: none;
+	flex-direction: column;
+}
+
+#mobile_warning p {
+	text-align: center;
+	color: #FFF;
+	margin-top: 90px;
+    font-size: 50px;
+}
+
+#mobile_warning img {
+	margin-top: 10px;
+	transform: scale(0.7);
+}
+
+@media only screen and (orientation:portrait) {
+    .main-container { display:none; }
+    #mobile_warning { display:flex; }
+}
+
+@media only screen and (orientation:landscape) {
+	#wrapper { display:block; }
+    #aviso-movil-horizontal { display:none; }
 }
