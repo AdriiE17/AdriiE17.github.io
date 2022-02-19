@@ -20,7 +20,7 @@ setInterval(()=>{
             slider.style.transform = "translate(0px)";
             slider.style.transition = "transform 0s";
             counter=1;
-        }, 4000);
+        }, 2500);
     }
 
 }, 5000);
