@@ -63,20 +63,26 @@ body{
     object-position: center;
 }
 
-@media only screen and (maxWidth: 600px) {
+@media screen and (max-width: 600px) {
     #forward, #backward{
-        padding: 100px;
-        border-radius: 50px;
+        padding: 40px;
+        border-radius: 80px;
         color: #fff;
         background-color: #ff8451;
-        top: 70%;
+        top: 65%;
     }
     
     #forward{
-        right: 150px;
+        right: 50px;
     }
     
     #backward{
-        left: 150px;
+        left: 50px;
     }
+
+    .main-slider{
+        margin-top: 50px;
+        height: 250px;
+    }
+
 }
