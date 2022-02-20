@@ -7,6 +7,7 @@ const forward = document.getElementById("forward");
 const backward = document.getElementById("backward");
 let counter = 1;
 let width = slider_individual[0].clientWidth;
+let responsive = window.matchMedia("(max-width:600px)");
 
 
 // Slider
