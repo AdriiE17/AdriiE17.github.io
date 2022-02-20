@@ -87,6 +87,6 @@ body{
 }
 
 @media only screen and (orientation:landscape) {
-	#wrapper { display:block; }
-    #aviso-movil-horizontal { display:none; }
+    .main-container { display:block; }
+    #mobile_warning { display:none; }
 }
