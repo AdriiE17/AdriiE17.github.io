@@ -64,29 +64,29 @@ body{
     object-position: center;
 }
 
-#mobile_warning { 
-	display: none;
-	flex-direction: column;
+#mobile-warning { 
+    display: none;
+    flex-direction: column;
 }
 
-#mobile_warning p {
-	text-align: center;
-	color: #FFF;
-	margin-top: 90px;
+#mobile-warning p {
+    text-align: center;
+    color: #FFF;
+    margin-top: 90px;
     font-size: 50px;
 }
 
-#mobile_warning img {
-	margin-top: 10px;
-	transform: scale(0.7);
+#mobile-warning img {
+    margin-top: 10px;
+    transform: scale(0.7);
 }
 
 @media only screen and (orientation:portrait) {
     .main-container { display:none; }
-    #mobile_warning { display:flex; }
+    #mobile-warning { display:flex; }
 }
 
 @media only screen and (orientation:landscape) {
     .main-container { display:block; }
-    #mobile_warning { display:none; }
+    #mobile-warning { display:none; }
 }
