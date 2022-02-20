@@ -3,20 +3,43 @@ body{
     font-family: "Consolas";
 }
 
-.main-container{
+
+#forward, #backward{
+    position: absolute;
+    display: inline-flex;
+    padding: 25px;
+    border-radius: 50px;
+    color: #fff;
+    background-color: #ff8451;
+    top: 300px;
+    z-index: 1;
+    transition: 1s;
+    opacity: 0.5;
+}
+
+#forward:hover, #backward:hover{
+    opacity: 1;
+}
+
+#forward{
+    right: 150px;
+}
+
+#backward{
+    left: 150px;
+}
+
+
+.main-slider{
     width: 80%;
     margin: auto;
     box-shadow: 0 0 50px #000;
     margin-top: 40px;
     height: 600px;
     overflow: hidden;
-    transform: scale(1);
     transition: 1s;
 }
 
-.main-container:hover{
-    transform: scale(1.1);
-}
 
 .slider-container{
     width: 100%;
