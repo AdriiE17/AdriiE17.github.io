@@ -63,34 +63,6 @@ body{
     object-position: center;
 }
 
-#mobile-warning { 
-    display: none;
-    flex-direction: column;
-}
-
-#mobile-warning p {
-    text-align: center;
-    color: #FFF;
-    margin-top: 90px;
-    font-size: 50px;
-}
-
-#mobile-warning img {
-    margin-top: 10px;
-    transform: scale(0.7);
-}
-
-@media only screen and (orientation:portrait) {
-    .main-container { display:none; }
-    #mobile-warning { display:flex; }
-}
-
-@media only screen and (orientation:landscape) {
-    .main-container { display:block; }
-    #mobile-warning { display:none; }
-}
-
-
 @media only screen and (maxWidth: 600px) {
     #forward, #backward{
         padding: 100px;
