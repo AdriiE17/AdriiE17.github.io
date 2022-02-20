@@ -70,6 +70,9 @@ function addEvents(container){
         backward.style.left = "150px";
     });
 }
-addEvents(main_slider);
-addEvents(forward);
-addEvents(backward);
+
+if(responsive.matches != true){
+    addEvents(main_slider);
+    addEvents(forward);
+    addEvents(backward);
+}
