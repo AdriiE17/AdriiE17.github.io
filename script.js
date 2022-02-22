@@ -62,6 +62,7 @@ function addEvents(container){
         backward.style.transform = "scale(1.1)";
         forward.style.right = "110px";
         backward.style.left = "110px";
+        document.body.style.overflow = "hidden";
     });
     container.addEventListener("mouseleave", e=>{
         main_slider.style.transform = "scale(1)";
@@ -69,6 +70,7 @@ function addEvents(container){
         backward.style.transform = "scale(1)";
         forward.style.right = "150px";
         backward.style.left = "150px";
+        document.body.style.overflow = "hidden";
     });
 }
 
