@@ -1,7 +1,5 @@
 'use strict';
 
-navigator.vibrate(5000)
-
 const main_slider = document.querySelector(".main-slider");
 const slider = document.querySelector(".slider-container");
 const slider_individual = document.querySelectorAll(".slider-content");
